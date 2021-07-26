@@ -1,8 +1,8 @@
 pipeline{
     
      tools{
-        jdk 'myjava'
-        maven 'mymaven'
+        jdk 'myJava'
+        maven 'myMaven'
     }
     agent {label 'prod_server'}
     stages{
